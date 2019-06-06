@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0;
+}
+
+#board {
+    display: grid;
+    height: 90vh;
+    width: 80%;
+    margin: auto;
+    grid-gap: 10px;
+}
+
+.tile {
+    border: red solid 1px;
+}
+
+.tile > * {
+    text-align: center;
+    margin: auto;
+}
